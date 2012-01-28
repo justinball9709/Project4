@@ -53,5 +53,22 @@ var emailTest = function(email) {
       return notWork;
 }
 };
+  console.log("justinball9709@fullsail.edu");
+  
+//String URL?
+var exUrl = function(myUrl){
+      var workUrl = url.indexOf("www"),
+          workUrl2 = url.indexOf("https://www.");
+          
+          if(workUrl == 5, workUrl2 = 5){
+          return console.log(myUrl);
+          }else {
+            return console.log ("not correct");
+          }
+}
+console.log("www.fullsail.com");
+console.log("https://www.");
+console.log("not valid");
+
 
 
