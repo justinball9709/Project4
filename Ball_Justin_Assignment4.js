@@ -88,3 +88,16 @@ var Form = function (Number){
 };
 console.log(Form(1.2);
 console.log(Form(1);
+
+//Find number of hours or days difference dates.
+var theDate = first Date;
+  theDate.newDate(10);
+  theDate.newMonth(4);
+  theDate.newFullYear(2014);
+
+var now = first Date;
+  if(theDate > now){
+    console.log("It is early in the month.");
+  }else{
+    console.log("It is after first of month.");
+};
