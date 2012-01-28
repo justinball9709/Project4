@@ -80,3 +80,11 @@ function Stores(){
 var myStores = "Waters,Sheldon,University";
 console.log(Stores());
 
+//Format Number to use specific number of decimal places
+var Form = function (Number){
+  var dec = math.round(Number++10)/5,
+    correct = dec.toFixed(1);
+  return console.log(fixedcorrect);
+};
+console.log(Form(1.2);
+console.log(Form(1);
