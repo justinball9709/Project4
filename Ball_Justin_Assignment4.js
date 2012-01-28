@@ -33,10 +33,25 @@ console.log("Thanks for purchasing " + affordTwix + " Twix candies.");
 var cellNumber = function(cell){
   var numOptions =  /^(\d{3})-(\d{3})-(\d{4})$/; 
   if (cell.match(numOptions)) {
-    workingNum = cell " is a number. ";
+    workingNum = cell " is a number. ";//TRUE
     return workingNum;
   } else {
-      nonworkNum = "Number" + cell + "is not correct.";
+      nonworkNum = "Number" + cell + "is not correct.";//FALSE
       return nonworkNum;
 }
 };
+
+// Does a string follow an aaa@bbb.ccc pattern like an email address?
+
+var emailTest = function(email) {
+    var emailAddress = (/^[a-zA-Z0-9_\.\-] + @[a-zA-Z0-9\-] + \.[a-zA-Z]{2,4}$/);
+    if (emailAddress) {
+      works = email + "Email address works.";
+      return works;
+    }else {
+      notWork = email + " This email does not properly work.";
+      return notWork;
+}
+};
+
+
