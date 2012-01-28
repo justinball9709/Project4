@@ -32,4 +32,11 @@ console.log("Thanks for purchasing " + affordTwix + " Twix candies.");
 //String Follow 123-456-7890 pattern like phone number?
 var cellNumber = function(cell){
   var numOptions =  /^(\d{3})-(\d{3})-(\d{4})$/; 
+  if (cell.match(numOptions)) {
+    workingNum = cell " is a number. ";
+    return workingNum;
+  } else {
+      nonworkNum = "Number" + cell + "is not correct.";
+      return nonworkNum;
 }
+};
