@@ -70,5 +70,13 @@ console.log("www.fullsail.com");
 console.log("https://www.");
 console.log("not valid");
 
+//Given string that is a list of things separated by a given string...
+function Stores(){
+  var separate = "/"
+  var slashStore = myStores.replace(/,/s.separate);
+  return slashStore;
+};
 
+var myStores = "Waters,Sheldon,University";
+console.log(Stores());
 
