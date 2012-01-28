@@ -28,3 +28,8 @@ var buyTwix = function(givenMoney)  {
 
 var affordTwix = buyTwix(10);
 console.log("Thanks for purchasing " + affordTwix + " Twix candies.");
+
+//String Follow 123-456-7890 pattern like phone number?
+var cellNumber = function(cell){
+  var numOptions =  /^(\d{3})-(\d{3})-(\d{4})$/; 
+}
